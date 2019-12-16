@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import SavedList from './Movies/SavedList';
 
 const App = () => {
