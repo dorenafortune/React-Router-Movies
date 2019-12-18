@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SavedList from './Movies/SavedList';
-import { Route, useRouteMatch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import MovieList from './Movies/MovieList'
 import Movie from './Movies/Movie'
 
@@ -12,7 +12,6 @@ const App = () => {
     setSavedList( [...savedList, movie] );
   };
 
-const { path } = useRouteMatch();
 
   return (
     <div>
